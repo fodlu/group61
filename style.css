@@ -1,0 +1,200 @@
+*{
+    font-family: monospace, sans-serif;
+    color: white;
+    padding: 0px;
+    font-size: 14px;
+    margin: auto;
+    background-color: hsl(216, 53%, 9%);
+}
+
+.clear{
+    clear: both;
+}
+
+
+p{
+    padding: 5px;
+}
+h3{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header div{
+    margin: 20px;
+}
+
+.header #navbar{
+    margin-left: auto;
+}
+
+.header #navbar ul{
+    display: block;
+    list-style-type: none;
+}
+
+.header #navbar li{
+    float:  left;
+}
+
+.header #navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+    margin: 0px 10px;
+    text-transform: capitalize;
+}
+
+.btn{
+    background-color: hsl(217, 28%, 15%);
+    width: 200px;
+    padding: 5px 0px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.main{
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
+
+.main img{
+    width: 80%;
+}
+
+.testimony{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimony #new{
+    width: 50%;
+    background-color: hsl(217, 28%, 13%);
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.testimony #new p{
+    text-align: justify;    
+    background-color: hsl(217, 28%, 13%);
+}
+
+.testimony #new h3{
+    background-color: hsl(217, 28%, 13%);
+}
+
+.foot{
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    justify-content: center;
+    background-color: hsl(217, 28%, 13%);
+}
+
+.foot img{
+    width: 40%;
+    margin-left: auto;
+}
+
+.foot .word{
+    width: 40%;
+    margin-right: auto;
+}
+
+.word p, .word h3, .word a{
+    background-color: hsl(217, 28%, 13%);
+}
+.foot a{
+    color: skyblue;
+}
+
+.people{
+    width: 80%;
+    display: flex;
+}
+
+#people-art{
+    background: hsl(219, 30%, 18%);
+    margin: 15px 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+#people-art p, #people-art h3{
+    background: hsl(219, 30%, 18%);
+}
+
+.access{
+    width: 80%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.access #form{
+    display: block;
+    overflow: hidden;
+}
+
+input{
+    padding: 10px 0px;
+    width: 60%;
+    background-color: white;
+    float: left;
+    border-radius: 10px;
+}
+
+.access button{
+    width: 35%;
+    padding: 10px 0px;
+    float: right;
+}
+@media only screen and (max-width: 550px){
+
+    .testimony #new{
+        display: block;
+        width: 70%;
+    }
+
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot img{
+        width: 80%;
+    }
+
+    .foot .word{
+        width: 80%;
+    }
+
+    .people{
+        display: block;
+    }
+
+    .people #people-art{
+        width: 100%;
+    }
+
+    .access #form{
+        display: block;
+    }
+}
